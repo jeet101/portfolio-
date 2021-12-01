@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/FW11_012_JEET_BISWAS.pdf'
 // import { pro_pic } from "./pro_pic";
 
 export const headerData = {
