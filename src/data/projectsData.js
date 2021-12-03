@@ -6,6 +6,7 @@ import five from "../assets/svg/projects/five.svg";
 import six from "../assets/svg/projects/six.svg";
 import seven from "../assets/svg/projects/seven.svg";
 import eight from "../assets/svg/projects/eight.svg";
+import upGrad from "./img/upGrad.png";
 
 export const projectsData = [
   {
@@ -15,18 +16,18 @@ export const projectsData = [
       "A web application to enroll in online programs built by top universities.",
     tags: ["Html", "CSS", "JavaScript"],
     code: "https://github.com/madanakrishnanmasai/website-clone/tree/master",
-    demo: "",
-    image: one,
+    demo: "https://upgrad-clone-backend.herokuapp.com/",
+    image: upGrad,
   },
   {
     id: 2,
-    projectName: "Railway Tracking",
+    projectName: "🥬  Ecogenic  🥬",
     projectDesc:
-      "This project is a railway tracking system that allows users to obtain relevant information about train timing.",
-    tags: ["Django", "Tailwind CSS"],
-    code: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
-    image: two,
+      "This App concept uses a carbon footprint calculator to help you track your environmental impact in real-time.",
+    tags: ["React", "JS","MongoDB", "CSS"],
+    code: "https://github.com/stockchandu/Project-Ecogenic",
+    demo: "https://ecogenic-life.netlify.app/",
+    image: "https://miro.medium.com/max/162/1*mD-VfMHL8p-1jC5DhAXMDw.png",
   },
   {
     id: 3,
