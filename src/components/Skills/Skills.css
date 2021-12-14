@@ -40,7 +40,7 @@
     background: #FAFAFA;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
-    width: 160px;
+    width: 150px;
     height: 160px;
     margin: 1.5rem;
     display: flex;
@@ -85,6 +85,12 @@
         padding: 1.5rem;
         margin-top: 1.5rem;
     }
+    .skill--box {
+        width: 140px;
+        height: 150px;
+        margin: 1.2rem;
+        padding: 2rem 1rem;
+    }
 }
 
 
@@ -101,7 +107,7 @@
         font-size: 3.2rem;
     }
     .skill--box {
-        width: 150px;
+        width: 85px;
         height: 150px;
         margin: 1.2rem;
         padding: 2rem 1rem;
@@ -134,11 +140,17 @@
         width: 100%;
         margin: 0;
     }
+    .skill--box {
+        width: 65px;
+        height: 150px;
+        margin: 1.2rem;
+        padding: 2rem 1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .skill--box {
-        width: 135px;
+        width: 35px;
         height: 135px;
         margin: 1.2rem;
         padding: 2rem 1rem;
@@ -149,12 +161,21 @@
     }
 
     .skillsHeader h2 {
-        font-size: 2.5rem;
+        font-size: -0.5rem;
     }
 
     .skill--box h3 {
         font-size: 18px;
         margin-top: 1rem;
+    }
+    .skillsContainer {
+        display: flex;
+      
+        align-items: center;
+        justify-content: center; 
+        width: 120%;
+        margin-top: 3.5rem;
+        padding: 0 2rem;
     }
 }
 

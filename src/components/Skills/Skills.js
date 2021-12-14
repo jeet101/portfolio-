@@ -25,11 +25,11 @@ function Skills() {
                 <div className="skill--scroll">
                     <Marquee 
                         gradient={false} 
-                        speed={80} 
+                        // speed={80} 
                         pauseOnHover={true}
                         pauseOnClick={true} 
-                        delay={0}
-                        play={true} 
+                        // delay={0}
+                        play={false} 
                         direction="left"
                     >
                         {skillsData.map((skill, id) => (

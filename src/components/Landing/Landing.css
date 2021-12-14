@@ -72,7 +72,7 @@
 .lcr--content h6 {
   font-weight: 500;
   font-size: 1.25rem;
-  margin-bottom: -0.85rem;
+  margin-bottom: 2.15rem;
   opacity: 0.8;
 }
 
@@ -80,7 +80,7 @@
   font-weight: 600;
   font-size: 3.25rem;
   line-height: 110%;
-  margin: 1rem 0;
+  margin: 0rem 0;
 }
 
 .lcr--content p {

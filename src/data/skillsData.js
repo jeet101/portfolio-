@@ -4,7 +4,7 @@
     'Javascript',
     
    
-    'Figma',
+    // 'Figma',
     'React',
     'Git',
     'MongoDB',

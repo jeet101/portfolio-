@@ -138,8 +138,9 @@ function Landing() {
           style={{ backgroundColor: theme.secondary }}
         >
           <div className="lcr--content" style={{ color: theme.tertiary }}>
-            <h6>{headerData.title}</h6>
+           
             <h1>{headerData.name}</h1>
+            <h6>{headerData.title}</h6>
             <p>{headerData.desciption}</p>
 
             <div className="lcr-buttonContainer">
